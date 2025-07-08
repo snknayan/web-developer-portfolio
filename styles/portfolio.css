@@ -1,5 +1,86 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared Styles, color copy kore niye asle tar aage ekta # bosaite hoy */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+color: #474747;
+}
+
+/* Header styles */
+
+.header{
+    /* ekhane chaile koma diye 2ta image o nite pari */
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    /* 2ta image er position niche thik korlam, prothom ta bam e o upore, porer ta dan e o niche. */
+    background-position: top left, bottom right;
+}
 /* Nav Styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 
+}
+.nav-tittle{
+    width: 800px;
+    font-size:45px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 10px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.banner-tittle{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-picture{
+    width: 580px;
 }
