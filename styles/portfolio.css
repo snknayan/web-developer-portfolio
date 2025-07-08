@@ -14,6 +14,33 @@
 .dark-2{
 color: #474747;
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+.section-title{
+    font-size: 35;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18px;
+    color:#757575;
+}
+.secondary-bg{
+    background-color: #ddd0c7;
+}
+
+.text-center{
+    text-align: center;
+}
 
 /* Header styles */
 
@@ -35,7 +62,7 @@ nav{
 .nav-tittle{
     width: 800px;
     font-size:45px;
-    
+
 }
 nav ul{
     display: flex;
@@ -49,16 +76,7 @@ nav li a{
     text-decoration: none;
     font-size: 10px;
 }
-.btn-primary{
-    background-color: #FD6E0A;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    padding: 18px 35px;
-    border-radius: 5px;
-    border: none;
 
-}
 
 /* Banner Styles */
 
@@ -83,4 +101,91 @@ nav li a{
 }
 .banner-profile-picture{
     width: 580px;
+}
+/* About Styles */
+.about{
+
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+
+}
+/* Main Styles */
+.main{
+    max-width: 1140px;
+    /* margin auto dile dan e bam e jai hok na kno se center e auto niye nibe tota width er */
+    margin: 0 auto;
+
+}
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: bold;
+}
+
+/* skills section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    /* background-color: white; */
+    box-shadow: 0px 6px 50px 0px #000000;
+    border-radius: 5px;
+}
+/* Resume Style */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 500px;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+
+}
+
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+
+}
+/* Download Button */
+.resume-download-cv{
+
+    margin-top: 50px;
+}
+/* Footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width:100%;
+    padding: 10px 25px;
+    margin-bottom: 24px;
+    border: none;
 }
